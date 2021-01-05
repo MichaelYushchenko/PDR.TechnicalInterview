@@ -6,10 +6,12 @@ using PDR.PatientBooking.Service.BookingServices.Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace PDR.PatientBooking.Service.BookingServices
 {
+    /// <summary>
+    /// <inheritdoc cref="IBookingService"/>
+    /// </summary>
     public class BookingService : IBookingService
     {
         private readonly PatientBookingContext _context;

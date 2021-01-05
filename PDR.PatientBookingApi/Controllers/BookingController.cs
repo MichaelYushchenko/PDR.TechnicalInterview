@@ -37,7 +37,6 @@ namespace PDR.PatientBookingApi.Controllers
             }
         }
 
-        //[HttpPost()]
         [HttpPost("AddBooking")]
         public IActionResult AddBooking(AddBookingRequest request)
         {

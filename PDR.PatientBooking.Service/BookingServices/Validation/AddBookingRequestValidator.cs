@@ -2,12 +2,13 @@
 using PDR.PatientBooking.Service.BookingServices.Requests;
 using PDR.PatientBooking.Service.Validation;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace PDR.PatientBooking.Service.BookingServices.Validation
 {
+    /// <summary>
+    /// <inheritdoc cref="IAddBookingRequestValidator"/>
+    /// </summary>
     public class AddBookingRequestValidator : IAddBookingRequestValidator
     {
         private readonly PatientBookingContext _context;
